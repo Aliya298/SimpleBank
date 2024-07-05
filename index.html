@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>SimpleBank | Where Banking Meets Simplicity</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/logo.png"
+          alt="SimpleBank logo"
+          class="nav__logo"
+          id="logo"
+          data-version-number="3.0"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Services</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Reviews</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Open Account</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          When
+          <!-- Green highlight effect -->
+          <span class="highlight">banking</span>
+          meets<br />
+          <span class="highlight">simplicity</span>
+        </h1>
+        <h4>Making banking easier for your everyday life.</h4>
+        <button class="btn--text btn--scroll-to">
+          Find out more &DownArrow;
+        </button>
+        <img
+          src="img/hero.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          All the tools you need from a modern bank, and then some.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/digital-lazy.jpg"
+          data-src="img/digital.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Fully Digital Banking</h5>
+          <p>
+            Experience banking in a fully digital way. Fast, secure, and always
+            at your fingertips.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Grow Your Wealth</h5>
+          <p>
+            Watch your savings grow with our high-interest rates and investment
+            options.
+          </p>
+        </div>
+        <img
+          src="img/grow-lazy.jpg"
+          data-src="img/grow.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/card-lazy.jpg"
+          data-src="img/card.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Free Debit Card</h5>
+          <p>
+            Enjoy the convenience of a free debit card with no hidden fees or
+            charges.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Services</h2>
+        <h3 class="section__header">
+          Simple, streamlined, and efficient banking.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Instant Transfers
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Instant Loans
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Instant Account Closure
+          </button>
+        </div>
+        <div class="operations__content operations__content--1">
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Transfer money instantly with no fees.
+          </h5>
+          <p>
+            Easily transfer funds to anyone, anytime, without any fees or
+            hassle.
+          </p>
+        </div>
+
+        <div
+          class="operations__content operations__content--2 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Get instant loans to fulfill your dreams.
+          </h5>
+          <p>
+            Obtain loans quickly for your needs, from buying a home to starting
+            a business.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Close your account instantly if you no longer need it.
+          </h5>
+          <p>
+            Easily close your account with a few clicks, no questions asked.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Still unsure?</h2>
+        <h3 class="section__header">
+          Join millions of satisfied SimpleBank customers who have simplified their
+          lives.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best customer service ever!</h5>
+            <blockquote class="testimonial__text">
+              Every visit to this branch has been pleasant thanks to the
+              excellent customer service. Though it can be busy, with a bit of a
+              wait, the service quality makes it worthwhile.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="img/jaouad ouchbar.jfif"
+                alt="Jaouad Ouchbar"
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Jaouad Ouchbar</h6>
+              <p class="testimonial__location">El Jadida, Morocco 🇲🇦</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Achieving minimalism with SimpleBank
+            </h5>
+            <blockquote class="testimonial__text">
+              I've been with SimpleBank since I was 16. The staff is wonderful and
+              the technology is efficient. Any issue I've had was resolved
+              quickly. I'm a loyal customer for life. Great job, team!
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="img/mohamed saber.jfif"
+                alt="Mohamed Saber"
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Saber Mohamed 🐼</h6>
+              <p class="testimonial__location">Agadir, Morocco</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Unmatched professionalism</h5>
+            <blockquote class="testimonial__text">
+              Finding a bank that truly cares about its customers is rare, but
+              SimpleBank is one of those banks. They always treat me with kindness
+              and respect. Highly recommended for all your banking needs!
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="img/mehdi dahbi.jpg"
+                alt="Mehdi Dahbi"
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Mehdi Dahbi</h6>
+              <p class="testimonial__location">Meknes, Morocco 🇲🇦</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          The best time to join SimpleBank was a year ago. The next best time is
+          now!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Open your free account today!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <img src="img/icon.png" alt="Logo" class="footer__logo" />
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your bank account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" required />
+        <label>Last Name</label>
+        <input type="text" required />
+        <label>Email Address</label>
+        <input type="email" required />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
